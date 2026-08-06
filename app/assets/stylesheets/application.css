@@ -8,3 +8,63 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 33px;
+}
+
+h1 {
+  margin: 17.4px 0;
+}
+
+p {
+  margin: 33px
+}
+
+th {
+  padding: 1px 1px 5px 1px;
+}
+
+td {
+  padding: 1px 5px 7px 5px;
+}
+
+h2 {
+  margin: 16.185px 0;
+}
+
+label {
+  display: block;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.flash-notice {
+  color: green;
+}
+
+.error-box {
+  width: 450px;
+  margin: 33px;
+  border: 2px solid red;
+  background-color: white;
+}
+
+.error-box ul{
+  margin: 33px;
+  padding-left: 40px;
+  font-size: 13px;
+}
+
+.error-title {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
